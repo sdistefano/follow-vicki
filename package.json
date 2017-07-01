@@ -4,13 +4,14 @@
   "description": "Execute trades on GDAX based on Vicki's tweets",
   "main": "index.js",
   "scripts": {
-    "start": "node follow.js"
+    "start": "node follow.yunbi.js"
   },
   "author": "Raven Jiang",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
     "gdax": "^0.4.2",
+    "yunbi-api": "^3.0.0",
     "twitter": "^1.7.1"
   }
 }
